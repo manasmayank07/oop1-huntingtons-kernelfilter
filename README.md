@@ -1,2 +1,13 @@
-# oop1-huntingtons-kernelfilter
-Java programs for detecting Huntington's disease DNA repeats and applying kernel-based image filters. OOP1 assignment.
+# OOP1: Huntingtons & KernelFilter
+
+This repository contains Java programs for an Object-Oriented Programming assignment:
+
+- **Huntingtons.java**: Detects the longest run of `CAG` repeats in a DNA sequence and diagnoses risk level.
+- **KernelFilter.java**: Applies various convolution filters (Gaussian, Laplacian, Sharpen, Emboss) to images.
+
+## Compilation
+
+```bash
+javac Huntingtons.java KernelFilter.java
+java Huntingtons < input.txt
+java KernelFilter image.jpg
